@@ -335,8 +335,16 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   /*I added this*/
   background: url("https://scontent.fers2-1.fna.fbcdn.net/v/t1.6435-9/47574394_260111381350758_2572327291635892224_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=973b4a&_nc_ohc=wqG2jKC0gmAAX9Dvd6n&_nc_oc=AQn4DVWITXs_s8KnfCkd3v67bSJUtvdWO9MGjryOVJ48All4_rQU2_n58UllFyIBN1I&_nc_ht=scontent.fers2-1.fna&oh=f650efdcb7e7ed71051c0f3a5fb90cfc&oe=60F5D506");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 500px){
+  #hero{
+    background: url("https://scontent.fers3-1.fna.fbcdn.net/v/t1.6435-9/74328124_410695836292311_2003758430069719040_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=-cYmhv5BJaMAX9_a-eY&_nc_ht=scontent.fers3-1.fna&oh=9c0e28de58912ed01bd47a0a5da7401e&oe=60F6364C");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
 
 
