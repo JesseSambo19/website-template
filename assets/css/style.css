@@ -387,6 +387,7 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   text-align: center;
   padding: 0 15px;
+  z-index: 30;
 }
 
 #home .home-logo {
@@ -1399,4 +1400,16 @@ section {
               /* Handle on hover */
               ::-webkit-scrollbar-thumb:hover {
                 background: green; 
+              }
+
+
+
+              .overlayy{
+                background-color: rgba(0,0,0,0.4);
+                position:  absolute;
+                top:  0;
+                left: 0;
+                z-index: 20;
+                width: 100%;
+                height: 100%;
               }
