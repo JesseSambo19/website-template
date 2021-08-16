@@ -361,16 +361,22 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   position: relative;
   /*I added this*/
-  background: url("https://scontent.fers2-1.fna.fbcdn.net/v/t1.6435-9/47574394_260111381350758_2572327291635892224_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=973b4a&_nc_ohc=wqG2jKC0gmAAX9Dvd6n&_nc_oc=AQn4DVWITXs_s8KnfCkd3v67bSJUtvdWO9MGjryOVJ48All4_rQU2_n58UllFyIBN1I&_nc_ht=scontent.fers2-1.fna&oh=f650efdcb7e7ed71051c0f3a5fb90cfc&oe=60F5D506");
+  /* background: url("./assets/img/eloolo-home-bg-img.jpg"); */
   background-size: cover;
   background-repeat: no-repeat;
 }
+.eloolo{
+  height: auto;
+  width: 40%;
+}
 
-@media screen and (max-width: 500px){
+
+@media screen and (max-width: 1050px){
   #home{
-    background: url("https://scontent.fers3-1.fna.fbcdn.net/v/t1.6435-9/74328124_410695836292311_2003758430069719040_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=-cYmhv5BJaMAX9_a-eY&_nc_ht=scontent.fers3-1.fna&oh=9c0e28de58912ed01bd47a0a5da7401e&oe=60F6364C");
+    /* background: url("https://scontent.fers3-1.fna.fbcdn.net/v/t1.6435-9/74328124_410695836292311_2003758430069719040_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=-cYmhv5BJaMAX9_a-eY&_nc_ht=scontent.fers3-1.fna&oh=9c0e28de58912ed01bd47a0a5da7401e&oe=60F6364C"); */
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
   }
 }
 
@@ -512,27 +518,27 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# Permaculture
 --------------------------------------------------------------*/
-.services .icon-box h4 {
+.permaculture .icon-box h4 {
   font-size: 20px;
   font-weight: 700;
   margin: 5px 0 10px 60px;
 }
 
-.services .icon-box i {
+.permaculture .icon-box i {
   font-size: 48px;
   float: left;
   color: #7cc576;
 }
 
-.services .icon-box p {
+.permaculture .icon-box p {
   font-size: 15px;
   color: #959595;
   margin-left: 60px;
 }
 
-.services .image {
+.permaculture .image {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -825,7 +831,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Portfolio
+# Project Posts
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
@@ -1046,15 +1052,15 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Clients
+# Partners and Friends
 --------------------------------------------------------------*/
-.clients {
+.partners-friends {
   background: whitesmoke;
   padding: 15px 0;
   text-align: center;
 }
 
-.clients img {
+.partners-friends img {
   width: 50%;
   filter: grayscale(100);
   transition: all 0.4s ease-in-out;
@@ -1062,19 +1068,19 @@ section {
   padding: 15px 0;
 }
 
-.clients img:hover {
+.partners-friends img:hover {
   filter: none;
   transform: scale(1.2);
 }
 
 @media (max-width: 768px) {
-  .clients img {
+  .partners-friends img {
     width: 40%;
   }
 }
 
 @media (max-width: 575px) {
-  .clients img {
+  .partners-friends img {
     width: 50%;
   }
 }
@@ -1233,14 +1239,21 @@ section {
   display: block;
 }
 
+@media screen and (max-width: 800px){
+  .iframe-size{
+    width: 80%;
+  }
+}
+
+
 
 
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url("https://scontent.fers2-1.fna.fbcdn.net/v/t1.6435-9/34258628_168850717143492_6330086640962240512_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=e3f864&_nc_ohc=2flvxxoGg8EAX9QbuCw&_nc_ht=scontent.fers2-1.fna&oh=3581667f18254a1466e16d9a50bd3c7f&oe=60F9FED5") center center no-repeat;
-  color: #fff;
+  /*background: url("./assets/img/eloolo-footer.jpg") center center no-repeat;
+  */color: #fff;
   font-size: 14px;
   position: relative;
 }
@@ -1379,6 +1392,7 @@ section {
   justify-content: center;
 }
 
+
 /*Scrollbar customization*/
               /* width */
               ::-webkit-scrollbar {
@@ -1413,3 +1427,25 @@ section {
                 width: 100%;
                 height: 100%;
               }
+
+.center-hrz{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iframe-container{
+  position: relative;
+  padding: auto;
+}
+
+.iframe-size{
+  width:90%;
+  /*height:50vh;*/
+}
+
+@media screen and (max-width: 380px){
+  .small-screen{
+    height: 385px;
+  }
+}
