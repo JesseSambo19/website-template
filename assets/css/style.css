@@ -1443,6 +1443,15 @@ section {
   width:90%;
   /*height:50vh;*/
 }
+.button-width{
+  width: 120.5%;
+}
+
+@media screen and (max-width: 575px){
+  .button-width{
+    width: 100%;
+  }
+}
 
 @media screen and (max-width: 380px){
   .small-screen{
