@@ -1459,23 +1459,23 @@ section {
   }
 }*/
 
-@media screen and (max-width: 479px){
+@media screen and (max-width: 426px){
   .links{
     margin-top: 30px;
   }
-}
-
-@media screen and (max-width: 475px){
   .small-screen{
     height: 420px;
   }
-  
 }
+
 
 .donate-input-width{
   width: 80%;
 }
 
+.login-signup-container-width{
+  width: 80%;
+}
 
 @media screen and (max-width: 575px){
   .donate-input-width{
@@ -1485,5 +1485,10 @@ section {
   }
   .donate-text{
     padding-left: 2.2rem;
+  }
+  .login-signup-container-width{
+  width: 90%;
+  }
 }
-}
+
+
