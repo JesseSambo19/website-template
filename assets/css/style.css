@@ -1471,3 +1471,19 @@ section {
   }
   
 }
+
+.donate-input-width{
+  width: 80%;
+}
+
+
+@media screen and (max-width: 575px){
+  .donate-input-width{
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .donate-text{
+    padding-left: 2.2rem;
+}
+}
