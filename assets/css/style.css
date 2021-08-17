@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   line-height: 1;
   /*padding: 8px 8px 8px;*/
-  padding: 8px 6px 0px 0px;
+  padding: 8px 5px 0px 0px;
   margin-left: 10px;
   margin-bottom: 28px;
   margin-right: 0;
@@ -171,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar a, .navbar a:focus {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
   padding: 10px 0 10px 30px;
   font-size: 15px;
   color: #151515;
@@ -309,7 +309,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile a {
-  padding: 10px 20px;
+  /*padding: 10px 20px;*/
   font-size: 15px;
   color: #151515;
 }
@@ -1490,6 +1490,25 @@ section {
   .login-signup-container-width{
   width: 90%;
   }
+  .login-link{
+  padding-left: 0;
+  }
+  #header .social-links a {
+  margin-bottom: 10px;
+  }
+  #header .social-links {
+  margin-top: 10px;
+  margin-left: 15px;
+  }
 }
 
 
+@media screen and (max-width: 991px){
+  #header .social-links a {
+  margin-bottom: 10px;
+  }
+  #header .social-links {
+  margin-top: 10px;
+  margin-left: 15px;
+  }
+}
