@@ -1453,20 +1453,21 @@ section {
   }
 }
 
-@media screen and (min-width: 800px){
-  .small-screen{
-    /*width: 70%;*/
-  }
-}
-
 /*@media screen and (max-width: 720px){
   .small-screen{
     height: 300px;
   }
 }*/
 
+@media screen and (max-width: 479px){
+  .links{
+    margin-top: 30px;
+  }
+}
+
 @media screen and (max-width: 475px){
   .small-screen{
-    height: 380px;
+    height: 420px;
   }
+  
 }
