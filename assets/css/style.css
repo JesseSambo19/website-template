@@ -111,7 +111,8 @@ h1, h2, h3, h4, h5, h6 {
   background: #7cc576;
   color: #fff;
   line-height: 1;
-  padding: 8px 0;
+  /*padding: 8px 8px 8px;*/
+  padding: 8px 6px 0px 0px;
   margin-left: 10px;
   margin-bottom: 28px;
   margin-right: 0;
