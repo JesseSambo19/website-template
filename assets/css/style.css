@@ -1430,7 +1430,7 @@ section {
               }
 
 .center-hrz{
-   display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -1488,11 +1488,21 @@ section {
     padding-left: 2.2rem;
   }
   .login-signup-container-width{
-  width: 90%;
+    width: 90%;
   }
   .login-link{
-  padding-left: 0;
+    padding-left: 0;
   }
+  #header .social-links a {
+    margin-bottom: 10px;
+  }
+  #header .social-links {
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 991px){
   #header .social-links a {
   margin-bottom: 10px;
   }
@@ -1502,13 +1512,8 @@ section {
   }
 }
 
-
-@media screen and (max-width: 991px){
-  #header .social-links a {
-  margin-bottom: 10px;
-  }
-  #header .social-links {
-  margin-top: 10px;
-  margin-left: 15px;
+@media screen and (min-width: 992px){
+  .overview{
+    display: none;
   }
 }
